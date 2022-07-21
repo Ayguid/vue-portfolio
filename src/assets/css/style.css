@@ -1,0 +1,31 @@
+body {
+
+}
+
+#app {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+}
+
+nav {
+    text-align: center;
+    padding: 30px;
+    background-color: black;
+}
+
+nav a {
+    font-weight: bold;
+    color: #adb4bc;
+}
+
+nav a.router-link-exact-active {
+    color: #42b983;
+}
+
+.home{
+    background-image: url("../bg-1.webp");
+    background-repeat: repeat;
+    background-size: cover;
+    height: calc(100vh - 92px);    
+}
