@@ -1,4 +1,4 @@
-import { categories, questions } from "@/store/modules/triviaData";
+import { categories, questions } from "@/store/modules/trivia/triviaData";
 
 export default {
     namespaced: true,
