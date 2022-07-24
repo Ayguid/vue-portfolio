@@ -4,10 +4,12 @@
 <script>
 import MainLayout from "@/layouts/MainLayout";
 import GameLayout from "@/layouts/GameLayout";
+import AdminLayout from "@/layouts/AdminLayout";
 export default {
   components: {
     MainLayout,
     GameLayout,
+    AdminLayout,
   },
   data() {
     return {

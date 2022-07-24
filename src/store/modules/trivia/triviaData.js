@@ -11,7 +11,7 @@ export const questions = [
     { id: 2, category_id: 0, question: "What is de capital of Chile?", answer: "Santiago", options: ["Santiago", "Valdivia", "Concepcion", "Puerto Montt"] },
     { id: 3, category_id: 0, question: "What is de capital of Colombia?", answer: "Bogota", options: ["Bogota", "Cali", "Medellin", "Barranquilla"] },
     { id: 4, category_id: 0, question: "What is de capital of Ecuador?", answer: "Quito", options: ["Quito", "Guayaquil", "Ambato", "Tallinn"] },
-    /*
+
     { id: 11, category_id: 1, question: "When was the first World War?", answer: "1914-1918", options: ["1914-1918", "1939-1945", "1939-1945", "1914-1918"] },
     { id: 12, category_id: 1, question: "When was the second World War?", answer: "1939-1945", options: ["1914-1918", "1939-1945", "1939-1945", "1914-1918"] },
 
@@ -24,5 +24,5 @@ export const questions = [
     { id: 18, category_id: 3, question: "What is chemical symbol for 'Hydrogen'?", answer: "Hydrogen", options: ["Hydrogen", "sd", "sd", "aaaaa"] },
     { id: 19, category_id: 3, question: "What is chemical symbol for 'Oxygen'?", answer: "Oxygen", options: ["Oxygen", "sda", "aasd", "aaaaaa"] },
     { id: 20, category_id: 3, question: "What is chemical symbol for 'Nitrogen'?", answer: "Nitrogen", options: ["Nitrogen", "aaaaa", "sdasd", "aaaaa"] },
-*/
+
 ]; 

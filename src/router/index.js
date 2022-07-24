@@ -18,7 +18,7 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/AdminPanel.vue'),
     meta: {
-      layout: 'MainLayout', // we add new meta layout here to use it later
+      layout: 'AdminLayout', // we add new meta layout here to use it later
     },
   },
   {

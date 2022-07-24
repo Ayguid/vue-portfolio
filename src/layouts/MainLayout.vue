@@ -14,6 +14,7 @@ onMounted(() => {
       <router-link class="text-2xl" to="/trivia">Trivia Game</router-link> |
       <router-link class="text-2xl" to="/todos">Todo App</router-link>
     </nav>
+
     <router-view />
   </div>
 </template>
