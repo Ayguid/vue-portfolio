@@ -1,6 +1,6 @@
 import { createStore } from 'vuex'
 
-import trivia from './modules/trivia'
+import trivia from './modules/trivia/trivia'
 
 export default createStore({
   state: {

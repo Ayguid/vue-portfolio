@@ -1,5 +1,5 @@
 body {
-
+    background-color: #adb4bc;
 }
 
 #app {
@@ -27,5 +27,19 @@ nav a.router-link-exact-active {
     background-image: url("../bg-1.webp");
     background-repeat: repeat;
     background-size: cover;
-    height: calc(100vh - 92px);    
+    min-height: calc(100vh - 92px);    
+}
+.trivia{
+
+    min-height: calc(100vh - 92px);    
+}
+
+/*animations*/
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .5s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
